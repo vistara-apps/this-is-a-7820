@@ -189,5 +189,200 @@ export const stateGuides = {
       legalAid: '1-800-405-1417',
       aclu: '786-363-2700'
     }
+  },
+  'IL': {
+    stateName: 'Illinois',
+    rightsContent: {
+      fundamental: [
+        'You have the right to remain silent under the 5th Amendment',
+        'You have the right to refuse consent to searches',
+        'You have the right to ask if you are free to leave',
+        'You have the right to an attorney during questioning',
+        'You have the right to record police in public spaces'
+      ],
+      trafficStops: {
+        required: [
+          'Provide driver\'s license, registration, and proof of insurance',
+          'Exit vehicle if lawfully commanded',
+          'Keep hands visible and follow lawful orders',
+          'Provide identification if lawfully detained'
+        ],
+        optional: [
+          'Answer questions beyond basic identification',
+          'Consent to vehicle searches',
+          'Allow searches of personal belongings',
+          'Perform field sobriety tests'
+        ]
+      },
+      searchSeizure: {
+        overview: 'Illinois provides strong Fourth Amendment protections and additional state constitutional protections. Police need probable cause or a warrant for most searches.',
+        stateSpecific: [
+          'Illinois has strict rules about consent searches',
+          'Cannabis is legal for adults, but driving under influence is prohibited',
+          'Police must have reasonable suspicion to extend traffic stops',
+          'Recording police is explicitly protected by state law'
+        ]
+      }
+    },
+    emergencyContacts: {
+      legalAid: '312-341-1070',
+      aclu: '312-201-9740'
+    }
+  },
+  'PA': {
+    stateName: 'Pennsylvania',
+    rightsContent: {
+      fundamental: [
+        'You have the right to remain silent under the 5th Amendment',
+        'You have the right to refuse consent to searches',
+        'You have the right to ask if you are free to leave',
+        'You have the right to an attorney during questioning',
+        'You have the right to record police interactions in public'
+      ],
+      trafficStops: {
+        required: [
+          'Provide driver\'s license, registration, and proof of insurance',
+          'Exit vehicle if lawfully ordered',
+          'Keep hands visible and comply with lawful commands',
+          'Provide identification during lawful detention'
+        ],
+        optional: [
+          'Answer questions about your activities',
+          'Consent to searches of vehicle or belongings',
+          'Perform field sobriety tests',
+          'Allow searches of passengers'
+        ]
+      },
+      searchSeizure: {
+        overview: 'Pennsylvania follows federal Fourth Amendment standards with additional state constitutional protections under Article I, Section 8. Police need probable cause or a warrant for most searches.',
+        stateSpecific: [
+          'Pennsylvania has stronger privacy protections than federal law in some areas',
+          'Consent searches must be truly voluntary',
+          'Police cannot extend stops without reasonable suspicion',
+          'Open carry is legal without a permit in most areas'
+        ]
+      }
+    },
+    emergencyContacts: {
+      legalAid: '1-877-953-4250',
+      aclu: '215-592-1513'
+    }
+  },
+  'OH': {
+    stateName: 'Ohio',
+    rightsContent: {
+      fundamental: [
+        'You have the right to remain silent under the 5th Amendment',
+        'You have the right to refuse consent to searches',
+        'You have the right to ask if you are free to leave',
+        'You have the right to an attorney during questioning',
+        'You have the right to record police in public spaces'
+      ],
+      trafficStops: {
+        required: [
+          'Provide driver\'s license, registration, and proof of insurance',
+          'Exit vehicle if lawfully ordered by police',
+          'Keep hands visible and follow direct commands',
+          'Inform officer if you have a concealed carry permit'
+        ],
+        optional: [
+          'Answer questions beyond identification',
+          'Consent to vehicle searches',
+          'Allow searches of personal items',
+          'Perform field sobriety tests'
+        ]
+      },
+      searchSeizure: {
+        overview: 'Ohio follows federal Fourth Amendment protections. Police need probable cause or valid consent for vehicle searches. The state has specific laws regarding traffic stops and searches.',
+        stateSpecific: [
+          'Ohio requires disclosure of concealed carry permits during stops',
+          'Consent to search can be withdrawn at any time',
+          'Police cannot extend stops without reasonable suspicion',
+          'Recording police is legal in public spaces'
+        ]
+      }
+    },
+    emergencyContacts: {
+      legalAid: '1-866-529-6446',
+      aclu: '614-586-1972'
+    }
+  },
+  'GA': {
+    stateName: 'Georgia',
+    rightsContent: {
+      fundamental: [
+        'You have the right to remain silent under the 5th Amendment',
+        'You have the right to refuse consent to searches',
+        'You have the right to ask if you are free to leave',
+        'You have the right to an attorney during questioning',
+        'You have the right to record police interactions in public'
+      ],
+      trafficStops: {
+        required: [
+          'Provide driver\'s license, registration, and proof of insurance',
+          'Exit vehicle if lawfully commanded',
+          'Keep hands visible and comply with lawful orders',
+          'Provide identification if lawfully detained'
+        ],
+        optional: [
+          'Answer questions about your activities or destination',
+          'Consent to searches of vehicle or belongings',
+          'Perform field sobriety tests',
+          'Allow searches of passengers'
+        ]
+      },
+      searchSeizure: {
+        overview: 'Georgia follows federal Fourth Amendment standards. Police need probable cause or a warrant for most searches. The state has specific laws regarding consent and vehicle searches.',
+        stateSpecific: [
+          'Georgia has "Stand Your Ground" laws',
+          'Open carry is legal with proper permits',
+          'Police must have reasonable suspicion to extend traffic stops',
+          'Recording police is protected under Georgia law'
+        ]
+      }
+    },
+    emergencyContacts: {
+      legalAid: '833-457-5327',
+      aclu: '770-303-8111'
+    }
+  },
+  'WA': {
+    stateName: 'Washington',
+    rightsContent: {
+      fundamental: [
+        'You have the right to remain silent under the 5th Amendment',
+        'You have the right to refuse consent to searches',
+        'You have the right to ask if you are free to leave',
+        'You have the right to an attorney during questioning',
+        'You have the right to record police in public spaces'
+      ],
+      trafficStops: {
+        required: [
+          'Provide driver\'s license, registration, and proof of insurance',
+          'Exit vehicle if lawfully ordered',
+          'Keep hands visible and follow lawful commands',
+          'Provide identification during lawful detention'
+        ],
+        optional: [
+          'Answer questions beyond identification',
+          'Consent to vehicle searches',
+          'Allow searches of personal items',
+          'Perform field sobriety tests'
+        ]
+      },
+      searchSeizure: {
+        overview: 'Washington has strong privacy protections under Article I, Section 7 of the state constitution, which provides greater protection than the federal Fourth Amendment in many situations.',
+        stateSpecific: [
+          'Washington requires higher standards for searches than federal law',
+          'Cannabis is legal for adults, but driving under influence is prohibited',
+          'Police need specific justification to extend traffic stops',
+          'Recording police is explicitly protected by state law'
+        ]
+      }
+    },
+    emergencyContacts: {
+      legalAid: '1-888-201-1014',
+      aclu: '206-624-2184'
+    }
   }
 };
