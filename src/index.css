@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+    background-color: hsl(0, 0%, 98%);
+    color: hsl(0, 0%, 15%);
+    line-height: 1.75;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-primary text-white px-6 py-3 rounded-md font-medium hover:bg-primary/90 transition-colors duration-150;
+  }
+  
+  .btn-secondary {
+    @apply bg-surface text-textPrimary border border-border px-6 py-3 rounded-md font-medium hover:bg-bg transition-colors duration-150;
+  }
+  
+  .btn-outline {
+    @apply border border-primary text-primary px-6 py-3 rounded-md font-medium hover:bg-primary hover:text-white transition-colors duration-150;
+  }
+  
+  .card {
+    @apply bg-surface rounded-lg shadow-card p-6;
+  }
+  
+  .card-feature {
+    @apply bg-surface rounded-lg shadow-card p-8 border border-accent/20;
+  }
+}
